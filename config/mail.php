@@ -84,9 +84,9 @@ return [
     |
     */
 
-    'username' => 'correspondencia@medicamentos.gob.sv',
+    'username' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
 
-    'password' => '.2017UI$',
+    'password' => env('MAIL_FROM_NAME', 'Example'),
 
     /*
     |--------------------------------------------------------------------------
